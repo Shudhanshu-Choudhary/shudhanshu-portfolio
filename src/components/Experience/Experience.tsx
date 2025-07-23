@@ -4,21 +4,20 @@ const EXPERIENCE = [
     {
         section: "Frontend Development",
         skills: [
-            { skill: "HTML", level: "Experienced" },
-            { skill: "CSS", level: "Experienced" },
-            { skill: "SASS", level: "Intermediate" },
-            { skill: "JavaScript", level: "Basic" },
-            { skill: "TypeScript", level: "Basic" },
-            { skill: "Material UI", level: "Intermediate" },
+            { skill: "React.js", level: "Experienced" },
+            { skill: "React Native", level: "Experienced" },
+            { skill: "JavaScript", level: "Advanced" },
+            { skill: "TypeScript", level: "Intermediate" },
+            { skill: "Redux Toolkit", level: "Advanced" },
         ],
     },
     {
-        section: "Backend Development",
+        section: "Other Tools / Basics",
         skills: [
+            { skill: "Node.js", level: "Basic" },
+            { skill: "Express.js", level: "Basic" },
             { skill: "PostgreSQL", level: "Basic" },
-            { skill: "Node JS", level: "Intermediate" },
-            { skill: "Express JS", level: "Intermediate" },
-            { skill: "Git", level: "Intermediate" },
+            { skill: "Git", level: "Advanced" },
         ],
     },
 ];
@@ -28,7 +27,7 @@ export const Experience = () => (
         <p className="section__text__p1">Explore My</p>
         <h1 className="title">Experience</h1>
         <div className="experience-details-container">
-            <div className="about-containers">
+            <div className="experience-containers">
                 {EXPERIENCE.map(section => (
                     <ExperienceCard
                         key={section.section}

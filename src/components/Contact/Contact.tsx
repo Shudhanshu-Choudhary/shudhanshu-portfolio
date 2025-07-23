@@ -4,14 +4,14 @@ const CONTACTS = [
     {
         icon: "/assets/email.png",
         alt: "Email icon",
-        href: "mailto:examplemail@gmail.com",
-        label: "Example@gmail.com",
+        href: "mailto:hello@shudhanshu.dev",
+        label: "hello@shudhanshu.dev",
         bigIcon: true,
     },
     {
         icon: "/assets/linkedin.png",
         alt: "LinkedIn icon",
-        href: "https://www.linkedin.com",
+        href: "https://www.linkedin.com/in/shudhanshus198/",
         label: "LinkedIn",
     },
 ];

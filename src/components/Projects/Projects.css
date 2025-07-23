@@ -1,24 +1,49 @@
-#projects {
-  position: relative;
+.projects-section {
+  padding: 2rem 1rem;
+  text-align: center;
 }
 
-.color-container {
-  border-color: rgb(163, 163, 163);
-  background: rgb(250, 250, 250);
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
 }
 
-.project-img {
-  border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+.project-card {
+  background-color: #f9f9f9;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 400px;
+  text-align: left;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
-.project-title {
-  margin: 1rem;
-  color: black;
+.project-card h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  color: #333;
 }
 
-.project-btn {
-  color: black;
-  border-color: rgb(163, 163, 163);
+.project-card p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 0.75rem;
+}
+
+.tech-stack {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tech-stack li {
+  background-color: #e0e0e0;
+  border-radius: 0.5rem;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.85rem;
 }

@@ -6,7 +6,7 @@ export const ExperienceCard: React.FC<ExperienceCardProps> = ({
     title,
     items,
 }) => (
-    <div className="details-container">
+    <div className="exp-details-container">
         <h2 className="experience-sub-title">{title}</h2>
         <div className="article-container">
             {items.map(i => (
@@ -17,8 +17,8 @@ export const ExperienceCard: React.FC<ExperienceCardProps> = ({
                         className="icon"
                     />
                     <div>
-                        <h3>{i.skill}</h3>
-                        <p>{i.level}</p>
+                        <h3 style={{ textAlign: "left" }}>{i.skill}</h3>
+                        <p style={{ textAlign: "left" }}>{i.level}</p>
                     </div>
                 </article>
             ))}

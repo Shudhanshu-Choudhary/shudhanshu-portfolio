@@ -17,12 +17,16 @@
 }
 
 .about-containers {
-  gap: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
 
 .about-details-container {
+  flex: 1;
   justify-content: center;
   flex-direction: column;
 }

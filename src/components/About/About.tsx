@@ -4,12 +4,12 @@ const ABOUT_CARDS = [
     {
         img: "/assets/experience.png",
         title: "Experience",
-        description: "2+ years \nFrontend Development",
+        description: "3+ years \nFrontend Development",
     },
     {
         img: "/assets/education.png",
         title: "Education",
-        description: "B.Sc. Bachelors Degree\nM.Sc. Masters Degree",
+        description: "B.Tech \nComputer Science \n AKTU, Lucknow",
     },
 ];
 
@@ -31,8 +31,8 @@ export const About = () => (
                 </div>
                 <div className="text-container">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-                        reprehenderit et laborum, rem, dolore eum...
+                        I'm Shudhanshu Choudhary, a frontend developer with 2.5+ years of experience building responsive and user-friendly web interfaces. I specialize in React.js, JavaScript, TypeScript, and Tailwind CSS.
+                        I focus on writing clean, maintainable code and creating smooth, accessible user experiences.
                     </p>
                 </div>
             </div>

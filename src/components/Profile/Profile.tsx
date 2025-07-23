@@ -2,9 +2,6 @@ import { SocialLinks } from "./SocialLinks";
 
 export const Profile = () => (
     <section id="profile">
-        {/* <div className="section__profile_pic-container">
-            
-        </div> */}
         <div className="profile-pic-container">
             <img
                 src="/assets/profile.jpg"

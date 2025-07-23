@@ -2,12 +2,12 @@ const SOCIALS = [
     {
         icon: "/assets/linkedin.png",
         alt: "LinkedIn profile",
-        url: "https://linkedin.com/",
+        url: "https://www.linkedin.com/in/shudhanshus198/",
     },
     {
         icon: "/assets/github.png",
         alt: "Github profile",
-        url: "https://github.com/",
+        url: "https://github.com/Shudhanshu-Choudhary",
     },
 ];
 

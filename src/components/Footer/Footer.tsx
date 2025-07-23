@@ -18,6 +18,6 @@ export const Footer = () => (
                 </ul>
             </div>
         </nav>
-        <p>Copyright &#169; 2023 Shudhanhu Choudhary. All Rights Reserved.</p>
+        <p>Copyright &#169; 2025 Shudhanhu Choudhary. All Rights Reserved.</p>
     </footer>
 );

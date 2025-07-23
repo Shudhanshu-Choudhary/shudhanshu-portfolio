@@ -1,35 +1,49 @@
-import { ProjectCard } from "./ProjectCard";
-
 const PROJECTS = [
     {
-        title: "Project One",
-        image: "/assets/project-1.png",
-        github: "https://github.com/",
-        demo: "https://github.com/",
+        title: "TravelMatic – Corporate Travel SaaS",
+        description:
+            "Built a dynamic travel management platform for corporate clients. Implemented React-based form automation, real-time updates with Pusher, and integrated Stripe for payments.",
+        tech: ["ReactJS", "Redux Toolkit", "Pusher", "Stripe", "Google Maps"],
     },
     {
-        title: "Project Two",
-        image: "/assets/project-2.png",
-        github: "https://github.com/",
-        demo: "https://github.com/",
+        title: "Cabin Tech – IoT Monitoring System",
+        description:
+            "Developed an IoT dashboard to monitor device data in real-time. Handled frontend architecture and integrated a secure payment flow.",
+        tech: ["ReactJS", "TypeScript", "Stripe"],
     },
     {
-        title: "Project Three",
-        image: "/assets/project-3.png",
-        github: "https://github.com/",
-        demo: "https://github.com/",
+        title: "Nobelman Books – eBook & Audiobook App",
+        description:
+            "Created a cross-platform app with audio streaming, PDF viewing, and secure in-app purchases. Released beta via TestFlight.",
+        tech: ["React Native", "TypeScript", "Expo", "Stripe"],
+    },
+    {
+        title: "Navy E-Claims – Claim Processing App",
+        description:
+            "Streamlined government claim processing via a React Native mobile app with RESTful API integration.",
+        tech: ["React Native", "REST APIs", "TypeScript"],
     },
 ];
 
 export const Projects = () => (
-    <section id="projects">
+    <section id="projects" className="projects-section">
         <p className="section__text__p1">Browse My Recent</p>
         <h1 className="title">Projects</h1>
-        <div className="experience-details-container">
-            <div className="about-containers">
-                {PROJECTS.map(p => <ProjectCard key={p.title} {...p} />)}
-            </div>
+
+        <div className="project-list">
+            {PROJECTS.map((project, index) => (
+                <div className="project-card" key={index}>
+                    <h3>{project.title}</h3>
+                    <p>{project.description}</p>
+                    <ul className="tech-stack">
+                        {project.tech.map((t, i) => (
+                            <li key={i}>{t}</li>
+                        ))}
+                    </ul>
+                </div>
+            ))}
         </div>
+
         <button
             className="arrow-btn"
             onClick={() => (window.location.hash = "#contact")}
