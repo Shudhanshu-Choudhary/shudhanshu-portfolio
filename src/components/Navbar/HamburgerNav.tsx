@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const NAV_LINKS = [
     { href: "#about", label: "About" },
