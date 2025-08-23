@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.noxgroot.bharat_grow",
+      "sha256_cert_fingerprints": [
+        "B7:4C:CD:98:E0:5E:3F:50:77:89:96:07:FA:33:A0:52:1F:CD:13:11:A3:1F:A8:53:3E:65:00:36:65:D8:93:4A" 
+      ]
+    }
+  }
+]
